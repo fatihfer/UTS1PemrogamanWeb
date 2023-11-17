@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pariwisata Indonesia</title>
+</head>
+<body>
+    <header>
+        <img src="gambar_header.jpg" alt="Header Image">
+        <h1>Pariwisata Indonesia</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinasi</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h2>Jelajahi Keindahan Indonesia</h2>
+            <p>Selamat datang di Tanah Air kami! Temukan informasi terkini tentang destinasi menakjubkan dan aktivitas seru di Indonesia.</p>
+        </section>
+
+        <section id="destinations">
+            <h2>Destinasi Unggulan</h2>
+            <div class="destination">
+                <img src="pantaibali.jpg" alt="Bali Image">
+                <h3>Bali</h3>
+                <p>Nikmati dan rasakan keindahan pantai, pura, dan budaya Bali yang dinamis.</p>
+            </div>
+
+            <div class="destination">
+                <img src="malioyogyakarta.jpg" alt="Yogyakarta Image">
+                <h3>Yogyakarta</h3>
+                <p>Jelajahi kekayaan sejarah dan seni Yogyakarta, peninggalan kuno dan pertunjukan tradisional.</p>
+            </div>
+
+        </section>
+
+        <section id="activities">
+            <h2>Activities</h2>
+            <div class="activity">
+                <img src="fotodiving.jpg" alt="Diving Image">
+                <h3>Scuba Diving</h3>
+                <p>Temukan dunia bawah laut yang semarak dengan paket selam scuba kami.</p>
+            </div>
+
+            <div class="activity">
+                <img src="trekkinggg1.jpg" alt="Trekking Image">
+                <h3>Trekking</h3>
+                <p>Mulailah petualangan melalui lanskap subur dan jalur yang menantang.</p>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Pelajari lebih lanjut misi kami untuk mempromosikan pariwisata Indonesia dan memberikan pengalaman berkesan bagi wisatawan.</p>
+            <p>Contact us at: <a href="mailto:info@pariwisata.com">info@pariwisata.com</a></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ada pertanyaan atau butuh bantuan? Hubungi kami menggunakan formulir di bawah ini:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Pariwisata Indonesia. made by Fatih Fernanda.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
